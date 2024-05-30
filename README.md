@@ -1,18 +1,20 @@
 # Genetic Algorithm for Function Optimization
 
-This repository contains an implementation of a Genetic Algorithm (GA) for optimizing a specific function. The GA is used to minimize the function \( g(x) \) by finding the optimal values of the variables \( x_1 \) and \( x_2 \).
+This repository contains an implementation of a Genetic Algorithm (GA) for optimizing a specific function. The GA is used to minimize the function g(x) by finding the optimal values of the variables x₁ and x₂.
 
 ## Overview
 
 The goal of this project is to demonstrate the application of a Genetic Algorithm to optimize a given mathematical function. The function to be optimized is defined as:
 
-\[ g(x) = \sum \left([1.5, 2.25, 2.625] - x_1 + x_1 \cdot (x_2^{[1, 2, 3]})\right)^2 \]
+
+g(x) = ∑ ([1.5, 2.25, 2.625] - x₁ + x₁ * (x₂^[1, 2, 3]))²
 
 The fitness of an individual is calculated as:
 
-\[ \text{fitness}(x) = \frac{1}{g(x) + 1} \]
+fitness(x) = 1 / (g(x) + 1)
 
-The GA aims to find the values of \( x_1 \) and \( x_2 \) that minimize the function \( g(x) \), thereby maximizing the fitness.
+
+The GA aims to find the values of x₁ and x₂ that minimize the function g(x), thereby maximizing the fitness.
 
 ## Implementation Details
 
