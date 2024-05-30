@@ -47,8 +47,8 @@ The parameters for the genetic algorithm are specified in the script and include
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/genetic-algorithm-optimization.git
-    cd genetic-algorithm-optimization
+    git clone https://github.com/Nekros0day/Genetic-Algorithm.git
+    cd Genetic-Algorithm
     ```
 
 2. **Run the script**:
